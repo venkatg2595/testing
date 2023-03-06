@@ -1,5 +1,5 @@
 ---
 - hosts: localhost
   tasks:
-  - name: copy lib path
-    command: /var/lib/jenkins/workspace/test/test.sh {{lib_path}}
+  - name: Execute shell script
+    command: sh '/var/lib/jenkins/workspace/test/test.sh {{lib_path}}'
