@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
   - name: copy lib path
-    command: /var/lib/jenkins
+    command: /var/lib/jenkins/workspace/test/test.sh {{lib_path}}
