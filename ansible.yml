@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
   - name: Execute shell script
-    command: sh '/var/lib/jenkins/workspace/test/test.sh {{lib_path}}'
+    command: sh '/var/lib/jenkins/workspace/test/test.sh 
